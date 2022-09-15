@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mukta:wght@400;700&display=swap');
+
+.root
+{
+--primary-color:#F2C94C;
+--secondary-color:#333333;
+--width-break: 600px;
+}
+html{
+    display: block;
+}
+body
+{
+    font-family:'Kalam', cursive;
+    color: #333333;
+    display: block;
+ }
+ .contents
+ {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+div
+{
+    display: block;
+    box-sizing: border-box;
+    border-color: #F2C94C;
+}
+#navigation
+{
+    background-color:#F2C94C;
+    color: #333333;
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 2.5em;
+}
+
+#txt-input
+{
+    padding: 1rem;
+    margin-top:2rem;
+    display: block;
+    min-height: 15vh;
+    width: 100%;
+    font-family:'Kalam', cursive;
+    text-align: start;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.container
+{
+    display: block;
+}
+#btn-translate
+{
+
+    display: block;
+    background-color: #F2C94C;
+    color: #333333;
+    font-family: 'Kalam', cursive;
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+    border: none;
+    font-size: large;
+}
+#translate-output
+{
+    padding: 1rem;
+    font-size: large;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid black;
+}
+
+#footer
+{
+    background-color: #F2C94C;
+    color: #333333;
+    width: 100%;
+    padding: 4rem;
+    margin: 1rem 0rem;
+    text-align: center;
+    font-size: x-large;
+}
+p{
+    font-size: medium;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
