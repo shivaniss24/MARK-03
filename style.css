@@ -78,7 +78,7 @@ div
     box-sizing: border-box;
     width: 100%;
     min-height: 10vh;
-    max-height: 20vh;
+    max-height: 10vh;
     overflow: scroll;
     border: 1px solid black;
 }
@@ -88,8 +88,8 @@ div
     background-color: #F2C94C;
     color: #333333;
     width: 100%;
-    padding: 4rem;
-    margin: 1rem 0rem;
+    padding: 2rem;
+    margin: 5rem 0rem;
     text-align: center;
     font-size: x-large;
 }
